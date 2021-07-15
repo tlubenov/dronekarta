@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def get_welcome():
-    render_template('home.html')
+    return render_template('home.html')
     #return {
     #    'welcome': 'DroneKarta.com'
     #}
@@ -13,12 +13,12 @@ def get_welcome():
 
 @app.route('/technology')
 def get_technology():
-    render_template('technology.html')
+    return render_template('technology.html')
 
 
 @app.route('/support')
 def get_support():
-    render_template('support.html')
+    return render_template('support.html')
 
 
 @app.route('/service')
