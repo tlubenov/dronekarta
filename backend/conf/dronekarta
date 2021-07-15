@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    server_name dronekarta.com www.dronekarta.com;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/root/dronekarta/backend/dronekarta.sock;
+    }
+}
