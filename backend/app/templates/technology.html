@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>DroneKarta - Technologies</title>
-</head>
-<body>
+{% extends "layout.html" %}
+
+{% block title %}Technologies{% endblock %}
+
+{% block content %}
 <h1>Drone Karta Technologies</h1>
 
 <ul>
-    <li>DJI Phantom4 Pro</li>
-    <li>DJI Matrice 100</li>
-    <li>DJI S900</li>
+    <li><a href="https://www.dji.com/bg/phantom-4-pro-v2" target="_blank">DJI Phantom4 Pro</a></li>
+    <li><a href="https://www.dji.com/bg/matrice100" target="_blank">DJI Matrice 100</a></li>
+    <li><a href="https://www.dji.com/bg/spreading-wings-s900" target="_blank">DJI S900</a></li>
 
     <li>GNSS GPS Stations and Receivers</li>
 
@@ -21,5 +19,4 @@
     <li>Cloud workload at AWS and GCS</li>
 
 </ul>
-</body>
-</html>
+{% endblock %}

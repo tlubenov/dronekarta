@@ -1,32 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>DroneKarta</title>
-    <meta name="keywords" content="Drone Karta, Digital Photogrammetry, Very High Resolution, 1 inch resolution, sub-inch resoution, Digital Elevation Model, Digital Surface Model, DEM, DSM, Aerophoto, 360 Panoramas, Drone, GNSS, PPK, RTK, Web Mapping, MapServer, Ground Control Points">
-    <meta name="description" content="Aerial Maps and Digital Surface and Elevation models producer and provider with Very High Resolution and Accuracy ready to be used in hybrid environment">
+{% extends "layout.html" %}
+{% block title %}Support{% endblock %}
+{% block css %}
 
-    <meta name="author" content="DroneKarta.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow">
+{% endblock %}
 
-    <style>
-        body {
-            width: 35em;
-            margin: 0 auto;
-            font-family: Tahoma, Verdana, Arial, sans-serif;
-        }
-    </style>
-</head>
-<body>
+{% block content %}
+<div class="row">
+    <div class="col">
+        <h1>Welcome to DroneKarta.com!</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <p>For more information and supported technologies please refer to
+        <a href="/technology">dronekarta.com</a>.<br/>
+        Commercial support is available at
+        <a href="/support">dronekarta.com</a>.</p>
+        <p><em>Thank you for using DroneKarta.</em></p>
+    </div>
+</div>
 
-<h1>Welcome to DroneKarta.com!</h1>
-
-<p>For more information and supported technologies please refer to
-<a href="/technology">dronekarta.com</a>.<br/>
-Commercial support is available at
-<a href="/support">dronekarta.com</a>.</p>
-<p><em>Thank you for using DroneKarta.</em></p>
-
-</body>
-</html>
+{% endblock %}

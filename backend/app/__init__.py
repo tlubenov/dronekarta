@@ -21,6 +21,11 @@ def get_support():
     return render_template('support.html')
 
 
+@app.route('/information')
+def get_information():
+    return render_template('information.html')
+
+
 @app.route('/service')
 def get_service():
     return {

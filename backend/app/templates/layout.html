@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DroneKarta - {% block title %}{% endblock %}</title>
+    <meta name="keywords" content="Drone Karta, Digital Photogrammetry, Very High Resolution, 1 inch resolution, sub-inch resoution, Digital Elevation Model, Digital Surface Model, DEM, DSM, Aerophoto, 360 Panoramas, Drone, GNSS, PPK, RTK, Web Mapping, MapServer, Ground Control Points">
+    <meta name="description" content="Aerial Maps and Digital Surface and Elevation models producer and provider with Very High Resolution and Accuracy ready to be used in hybrid environment">
+    <meta name="author" content="DroneKarta.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+{% block css %}{% endblock %}
+</head>
+<body>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
