@@ -1,18 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1>Useful Information</h1>
+{% extends "layout.html" %}
+{% block title %}Useful Information{% endblock %}
 
+{% block content %}
+<h1>Useful Information</h1>
 <ul>
     <li><a href="https://www.dji.com/bg/flysafe/geo-map" target="_blank">FlySafe Zones</a></li>
     <li><a href="https://dronerules.eu/bg/professional/authorities/bulgaria" target="_blank">Drone Rules - Bulgaria</a></li>
     <li><a href="https://www.caa.bg/bg/page/interaktivni-karti" target="_blank">Interactive CAA Maps</a></li>
-    <li><a href="" target="_blank"></a></li>
-    <li><a href="" target="_blank"></a></li>
+    <li><a href="https://dronechart.lfv.se/" target="_blank">dronechart.lfv.se</a></li>
+    <li><a href="https://aviamaps.com/map#p=3.8/65.69/26" target="_blank">aviamaps.com</a></li>
+    <li><a href="https://www.traficom.fi/en/" target="_blank">traficom.fi</a></li>
 </ul>
-</body>
-</html>
+{% endblock %}
