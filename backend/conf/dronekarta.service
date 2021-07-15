@@ -5,7 +5,7 @@ After=network.target
 [Service]
 User=root
 Group=www-data
-WorkingDirectory=/root/dronekarta/backend
+WorkingDirectory=/home/mapserver/dronekarta/backend
 Environment="PATH=/usr/bin"
 ExecStart=/usr/bin/gunicorn --workers 3 --bind unix:dronekarta.sock -m 007 wsgi:app
 
